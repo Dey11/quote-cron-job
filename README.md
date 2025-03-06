@@ -26,7 +26,7 @@ A simple Express.js server that provides inspirational quotes. The server fetche
 2. Install dependencies:
 
    ```
-   npm install
+   pnpm install
    ```
 
 3. Create a `.env` file in the root directory (optional):
