@@ -18,8 +18,9 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-let quote = "";
-let quoteAuthor = "";
+let quote = `When studying a new concept, try to explain it in your own words as if you're teaching it to someone else. 
+      This technique, known as the 'Feynman Technique,' helps identify gaps in your understanding and reinforces your learning.`;
+let quoteAuthor = "Richard Feynman";
 
 async function generateQuote() {
   fetch("https://zenquotes.io/api/random")
